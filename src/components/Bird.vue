@@ -28,8 +28,8 @@ const resolves = {
   mid: Texture.from(midPNG, { scaleMode: SCALE_MODES.NEAREST }),
   up: Texture.from(upPNG, { scaleMode: SCALE_MODES.NEAREST }),
 }
-const velocity = ref(-11)
-const gravity = 0.6
+const velocity = ref(-6)
+const gravity = 0.4
 
 const texture = computed(() => {
   return velocity.value < -2
@@ -52,7 +52,7 @@ function jump() {
     return
   audios.wing.play()
   // jump upwards when clicked, negative velocity indicates upward direction
-  velocity.value = -11
+  velocity.value = -8
 }
 
 
