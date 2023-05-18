@@ -4,6 +4,10 @@ This project utilizes the [vue3-pixi](https://github.com/hairyf/vue3-pixi) frame
 
 https://vue3-pixi-flappy-bird.vercel.app/
 
+<p align="center">
+  <img src="./public/1.jpg" height="400px">
+</p>
+
 ## Usage
 
 1. Installation project dependencies
