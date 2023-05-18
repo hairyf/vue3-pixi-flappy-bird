@@ -2,6 +2,8 @@
 
 This project utilizes the [vue3-pixi](https://github.com/hairyf/vue3-pixi) framework for integrating Pixi.js with Vue.js.
 
+https://vue3-pixi-flappy-bird.vercel.app/
+
 ## Usage
 
 1. Installation project dependencies
